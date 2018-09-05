@@ -1,0 +1,6 @@
+*~
+*.pyc
+/.coverage
+/.pytest_cache/
+/.tox/
+/htmlcov/

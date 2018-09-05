@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+
+[run]
+branch = True
+source = cli
+
+[paths]
+source =
+    src/cli
+    .tox/*/Lib/site-packages/cli
