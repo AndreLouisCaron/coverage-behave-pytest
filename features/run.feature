@@ -9,3 +9,7 @@ Feature: run as a command-line too
   Scenario: run as Python module
     When I run "python -m cli --help"
     Then I see "usage: cli"
+
+  Scenario: run sucessfully
+    When I run "cli"
+    Then I see "ARGS: {'dir': None}"

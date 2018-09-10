@@ -16,6 +16,12 @@ share the recipe and get some help finding a functional solution.
 .. _behave: https://behave.readthedocs.io/
 .. _pytest: https://docs.pytest.org/
 
+Observations
+============
+
+The bug does not seem to reproduce on OSX.  Maybe this is a Windows-specific
+issue?
+
 How to use this project
 =======================
 
