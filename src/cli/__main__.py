@@ -20,9 +20,9 @@ def make_parser():
 
 
 def main(argv=None):
-    args = make_parser().parse_args(argv)
+    args = vars(make_parser().parse_args(argv))
     print('ARGS:', args)
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':  # pragma: no cover
     main(sys.argv[1:])
